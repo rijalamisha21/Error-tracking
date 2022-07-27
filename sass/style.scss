@@ -1,0 +1,118 @@
+@import "//node_modules/bootstrap/scss/bootstrap.scss";
+// @import"//node_modules/bootstrap/scss/bootstrap.scss";
+
+$purple:#3c2145;
+$light-white:#faf9fb;
+$grey:rgb(149, 134, 165);
+$green:#57be8c;
+$font:'Rubik', sans-serif;
+$white:white;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $font;
+    color: $grey;
+}
+h1{
+    font-size: 1.6rem;
+}
+@mixin text{
+    font-size: 12px;
+}
+
+
+span a{
+     text-decoration: none;
+     color: $grey;
+}
+
+
+.left-sidebar{
+    // position: fixed;
+    // top: 0;
+    background-color: $purple;
+    height: 100vh;   
+    // width: 16%;
+}
+.left-container{   
+    color: $grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 2rem;
+}
+.green-logo{
+    background-color: $green;
+    color: $white;
+    padding: 5px;
+    border-radius: 3px;
+    height: 30px;
+    margin-right: 11px
+}
+.wrap-setting {
+    margin-top: 1rem;
+    display: flex;
+    height: 87vh;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.email{
+    @include text;
+}
+.email:hover{
+    color: white;
+}
+button{
+    color: white;
+    border: none;
+    background-color: $purple;
+}
+.top-btn{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    
+}
+.profile-name .name, .arrow-btn{
+    color: $white;
+}
+
+.setting-icon{
+    margin-right: 2rem;
+}
+.top-setting{
+    display: flex;
+    flex-direction: column;
+}
+.top-setting{
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    span:hover{
+        color: white;
+    }   
+    
+}
+
+.top-heading{
+    background-color: $light-white;
+    padding: 1rem;
+    margin-left: 1rem;
+  
+}
+.horizontal-line{
+    background-color: $grey;
+}
+
+
+
+
+
+
+
