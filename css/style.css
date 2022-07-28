@@ -1,4 +1,8 @@
 @import "//node_modules/bootstrap/scss/bootstrap.scss";
+a {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -82,11 +86,7 @@ button {
   flex-direction: column;
 }
 
-.top-setting a:hover {
-  text-decoration: none;
-  color: white;
-}
-.top-setting span:hover {
+.top-setting a:hover, span:hover {
   color: white;
 }
 
