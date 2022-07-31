@@ -1,0 +1,63 @@
+@import "./global.scss";
+$primary-color: royalblue;
+$text-color:rgb(31, 30, 30);
+$icon-color:rgb(172, 172, 172);
+$h1-size:30px;
+
+body{
+    color: $text-color;
+    h1{
+        font-size: $h1-size;
+    }
+}
+
+.javascript-text{
+    display: flex;
+}
+
+.time-div{
+    text-decoration: dotted;
+}
+i{
+    padding: 5px;
+    color: $icon-color;
+}
+
+table{
+    .error_div{
+        display: flex;
+
+        p{
+            padding: 11px 0px 0px 10px;
+        }
+    }
+    h4{
+        color: $primary-color;
+    }
+    .dotted_line{
+        text-decoration: underline;
+    }
+    #check1{
+
+        margin: -13px;
+    }
+    label{
+        margin-left: 13px;
+    }
+    .wrap_div{
+        margin-left: 25px;
+        margin-top: -25px;
+    }
+    .orange_box{
+        width: 10px;
+        height: 15px;
+        background-color: rgb(253, 135, 44);
+        margin-left: -8px;
+        border-radius:15%;
+    }
+}
+
+
+
+
+  
