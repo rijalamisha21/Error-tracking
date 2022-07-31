@@ -187,7 +187,6 @@ ul li {
 
 .middle-article {
   color: rgb(31, 30, 30);
-  right: -22rem;
 }
 
 .javascript-text {
@@ -231,6 +230,4 @@ table .orange_box {
   background-color: rgb(253, 135, 44);
   margin-left: -8px;
   border-radius: 15%;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
