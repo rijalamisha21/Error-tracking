@@ -1,14 +1,7 @@
 @import "./global.scss";
-$primary-color: royalblue;
-$text-color:rgb(31, 30, 30);
-$icon-color:rgb(172, 172, 172);
-$h1-size:30px;
 
-body{
-    color: $text-color;
-    h1{
-        font-size: $h1-size;
-    }
+.middle-article{
+    color: $middle-black;
 }
 
 .javascript-text{

@@ -6,6 +6,11 @@ $font:'Rubik', sans-serif;
 $white:white;
 $light-black:rgb(62, 52, 70);
 $orange:#f9a66d;
+$primary-color: royalblue;
+$text-color:rgb(31, 30, 30);
+$icon-color:rgb(172, 172, 172);
+$h1-size:30px;
+$middle-black:rgb(31, 30, 30);
 
 *{
     margin: 0;
@@ -14,14 +19,14 @@ $orange:#f9a66d;
 }
 body{
     font-family: $font;
-    color: $grey;
+    
 }
 a{
     text-decoration: none; 
     color: $light-white; 
 }
 h1{
-    font-size: 1rem;
+    font-size: $h1-size
 }
 ul li{
     list-style-type: none;
