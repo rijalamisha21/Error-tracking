@@ -59,6 +59,7 @@ button {
 .nav__container {
   color: rgb(149, 134, 165);
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .nav__logo {
