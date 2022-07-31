@@ -3,7 +3,7 @@ const navbar= document.getElementsByClassName("nav__bar")
 const collapse= document.getElementById("collapse");
 const setting= document.getElementsByClassName("wrap__setting");
 
-
+//use toggle 
 collapse.addEventListener("click", ()=>{
     profile.style.display= "none";
     navbar[0].style.width= "9rem";

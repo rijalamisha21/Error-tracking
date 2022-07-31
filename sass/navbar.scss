@@ -1,5 +1,6 @@
 @import "./global.scss";
 
+
 button {
   color: $white;
   border: none;
@@ -8,13 +9,14 @@ button {
 
 .nav__bar {
   background-color: $purple;
+  height: 100vh;
   
 
 }
 .nav__container {
   color: $grey;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  // padding-bottom: 2rem;
 //   overflow: hidden;
 //   text-overflow: ellipsis;
 }

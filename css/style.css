@@ -54,12 +54,12 @@ button {
 
 .nav__bar {
   background-color: #3c2145;
+  height: 100vh;
 }
 
 .nav__container {
   color: rgb(149, 134, 165);
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .nav__logo {
@@ -161,4 +161,6 @@ button {
 .light-email {
   color: rgb(149, 134, 165);
   font-size: 1.2rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
