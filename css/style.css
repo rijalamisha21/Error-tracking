@@ -52,7 +52,7 @@ button {
   background-color: #3c2145;
 }
 
-.navbar {
+.nav__bar {
   background-color: #3c2145;
 }
 
@@ -160,6 +160,4 @@ button {
 .light-email {
   color: rgb(149, 134, 165);
   font-size: 1.2rem;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
