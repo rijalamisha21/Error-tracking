@@ -14,7 +14,7 @@ a {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 ul li {
@@ -23,6 +23,7 @@ ul li {
 
 .middle-article {
   color: rgb(31, 30, 30);
+  right: -22rem;
 }
 
 .javascript-text {

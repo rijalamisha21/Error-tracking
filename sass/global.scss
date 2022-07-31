@@ -9,7 +9,7 @@ $orange:#f9a66d;
 $primary-color: royalblue;
 $text-color:rgb(31, 30, 30);
 $icon-color:rgb(172, 172, 172);
-$h1-size:30px;
+$h1-size: 20px;
 $middle-black:rgb(31, 30, 30);
 
 *{
@@ -26,7 +26,7 @@ a{
     color: $light-white; 
 }
 h1{
-    font-size: $h1-size
+    font-size: $h1-size;
 }
 ul li{
     list-style-type: none;
