@@ -1,0 +1,129 @@
+@import "./global.scss";
+
+button {
+  color: white;
+  border: none;
+  background-color: $purple;
+}
+
+.navbar {
+  background-color: $purple;
+
+}
+
+.nav__container {
+  color: $grey;
+  padding-top: 2rem;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+}
+
+.nav__logo {
+  background-color: $green;
+  color: $white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.email {
+  font-size: 1.2rem;
+  &:hover {
+    color: white;
+  }
+}
+
+.top__btn {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+.name,
+.arrow__btn {
+  color: $white;
+}
+
+.wrap__setting {
+    margin-top: 1rem;
+    display: flex;
+    height: 87vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.top__setting {
+    display: flex;
+    flex-direction: column;
+  
+    & div {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .setting{
+      a{
+          color: $grey;
+      }
+      
+          &:hover{
+            a,span{
+              color: white;
+              text-decoration: none;
+            }
+          }
+      }
+  
+
+.setting__icon {
+  margin-right: 2rem;
+}
+
+.dropdown-menu {
+    color: $light-black;
+    a{
+        color: $light-black;
+    &:hover{
+        color: $light-black;
+        text-decoration: none;
+    }
+    }
+    li{
+        padding: 0.5rem;
+        &:hover{
+            background-color: $light-white;
+        }
+    }
+   .wrap-dropdown{
+    padding: 1rem;
+    width: 24rem;
+    line-height: 1.2;
+
+    .dropdown__btn{
+        margin-bottom: 1rem;
+    }
+    .dropddown_email{
+        color: $grey;
+    }
+    
+   }
+
+}
+.bottom-btn{
+    display: flex;
+    
+}
+
+.dropdown__button--logo{
+    background-color:$orange;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    height: 32px;
+}
+.light-email{
+    color: $grey;
+    font-size: 1.2rem;
+}

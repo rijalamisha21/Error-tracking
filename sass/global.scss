@@ -4,10 +4,9 @@ $grey:rgb(149, 134, 165);
 $green:#57be8c;
 $font:'Rubik', sans-serif;
 $white:white;
+$light-black:rgb(62, 52, 70);
+$orange:#f9a66d;
 
-a{
-    text-decoration: none;  
-}
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +16,13 @@ body{
     font-family: $font;
     color: $grey;
 }
+a{
+    text-decoration: none; 
+    color: $light-white; 
+}
 h1{
-    font-size: 1.6rem;
+    font-size: 1rem;
+}
+ul li{
+    list-style-type: none;
 }

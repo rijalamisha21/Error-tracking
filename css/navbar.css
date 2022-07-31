@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: rgb(149, 134, 165);
+}
+
+a {
+  text-decoration: none;
+  color: #faf9fb;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button {
+  color: white;
+  border: none;
+  background-color: #3c2145;
+}
+
+.navbar {
+  background-color: #3c2145;
+}
+
+.nav__container {
+  color: rgb(149, 134, 165);
+  padding-top: 2rem;
+}
+
+.nav__logo {
+  background-color: #57be8c;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.email {
+  font-size: 1.2rem;
+}
+.email:hover {
+  color: white;
+}
+
+.top__btn {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+.name,
+.arrow__btn {
+  color: white;
+}
+
+.wrap__setting {
+  margin-top: 1rem;
+  display: flex;
+  height: 87vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top__setting {
+  display: flex;
+  flex-direction: column;
+}
+.top__setting div {
+  margin-bottom: 1rem;
+}
+
+.setting a {
+  color: rgb(149, 134, 165);
+}
+.setting:hover a, .setting:hover span {
+  color: white;
+  text-decoration: none;
+}
+
+.setting__icon {
+  margin-right: 2rem;
+}
+
+.dropdown-menu {
+  color: rgb(62, 52, 70);
+}
+.dropdown-menu a {
+  color: rgb(62, 52, 70);
+}
+.dropdown-menu a:hover {
+  color: rgb(62, 52, 70);
+  text-decoration: none;
+}
+.dropdown-menu li {
+  padding: 0.5rem;
+}
+.dropdown-menu li:hover {
+  background-color: #faf9fb;
+}
+.dropdown-menu .wrap-dropdown {
+  padding: 1rem;
+  width: 24rem;
+  line-height: 1.2;
+}
+.dropdown-menu .wrap-dropdown .dropdown__btn {
+  margin-bottom: 1rem;
+}
+.dropdown-menu .wrap-dropdown .dropddown_email {
+  color: rgb(149, 134, 165);
+}
+
+.bottom-btn {
+  display: flex;
+}
+
+.dropdown__button--logo {
+  background-color: #f9a66d;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+  height: 32px;
+}
+
+.light-email {
+  color: rgb(149, 134, 165);
+  font-size: 1.2rem;
+}/*# sourceMappingURL=navbar.css.map */
