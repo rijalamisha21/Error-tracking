@@ -6,7 +6,6 @@
 
 body {
   font-family: "Rubik", sans-serif;
-  color: rgb(149, 134, 165);
 }
 
 a {
@@ -15,7 +14,7 @@ a {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 20px;
 }
 
 ul li {
@@ -31,6 +30,7 @@ button {
 .nav__bar {
   background-color: #3c2145;
   height: 100vh;
+  color: rgb(149, 134, 165);
 }
 
 .nav__container {

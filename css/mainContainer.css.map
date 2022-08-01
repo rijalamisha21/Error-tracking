@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../sass/global.scss","../sass/mainContainer.scss"],"names":[],"mappings":"AASA;EACI;EACA;EACA;;;AAEJ;EACI,aAXE;EAYF,OAdE;;;AAgBN;EACI;EACA,OAnBS;;;AAqBb;EACI;;;AAEJ;EACI;;;ACpBJ;EACI,OALQ;;AAMR;EACI,WALC;;AAOL;EACI;;AACA;EACI;;AAEJ;EACI;;;AAIZ;EACI;EACA;EACA;;;AAEJ;EACI;;;AAEJ;EACI;EACA,OA5BQ;;;AAgCR;EACI;;AAEA;EACI;;AAGR;EACI,OA1CQ;;AA4CZ;EAEI;;AAEJ;EACI;;AAEJ;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA","file":"mainContainer.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../sass/global.scss","../sass/mainContainer.scss"],"names":[],"mappings":"AAcA;EACI;EACA;EACA;;;AAEJ;EACI,aAhBE;;;AAmBN;EACI;EACA,OAxBS;;;AA0Bb;EACI,WAjBM;EAkBN;;;AAEJ;EACI;;;AC9BJ;EACI,ODSU;ECRV;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAEJ;EACI;EACA,ODPQ;;;ACWR;EACI;;AAEA;EACI;;AAGR;EACI,ODrBQ;;ACuBZ;EACI;;AAEJ;EAEI;;AAEJ;EACI;;AAEJ;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA","file":"mainContainer.css"}
+>>>>>>> 16c1ff492b2e1e4687768ffd7f078ec876da1ec7

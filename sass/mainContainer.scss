@@ -1,4 +1,5 @@
 @import "./global.scss";
+<<<<<<< HEAD
 $primary-color: royalblue;
 $text-color:rgb(31, 30, 30);
 $icon-color:rgb(172, 172, 172);
@@ -23,6 +24,13 @@ body{
     background-color: rgb(249, 234, 239);
     border-radius: 50%;
     padding: 6px 10px 6px 10px;
+=======
+
+.middle-article{
+    color: $middle-black;
+    position: relative;
+    z-index: -1;
+>>>>>>> 16c1ff492b2e1e4687768ffd7f078ec876da1ec7
 }
 .javascript-text{
     display: flex;
