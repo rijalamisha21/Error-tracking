@@ -9,14 +9,23 @@ body{
     h1{
         font-size: $h1-size;
     }
+    nav{
+        display: flex;
+        span{
+            padding: 5px;
+        }
+        .unresolved-nav{
+            border-bottom: 5px solid purple;
+        }
+    }
 }
-
+.nine{
+    background-color: rgb(249, 234, 239);
+    border-radius: 50%;
+    padding: 6px 10px 6px 10px;
+}
 .javascript-text{
     display: flex;
-}
-
-.time-div{
-    text-decoration: dotted;
 }
 i{
     padding: 5px;
@@ -33,9 +42,6 @@ table{
     }
     h4{
         color: $primary-color;
-    }
-    .dotted_line{
-        text-decoration: underline;
     }
     #check1{
 
