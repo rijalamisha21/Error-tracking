@@ -188,10 +188,8 @@ ul li {
   list-style-type: none;
 }
 
-.middle-article {
-  font-family: "Rubik", sans-serif;
+.main__article {
   color: rgb(31, 30, 30);
-  position: relative;
   z-index: -1;
 }
 
@@ -236,4 +234,4 @@ table .orange_box {
   background-color: rgb(253, 135, 44);
   margin-left: -8px;
   border-radius: 15%;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */*/

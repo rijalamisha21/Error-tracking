@@ -1,6 +1,6 @@
 const profile= document.getElementById("profile")
 const navbar= document.getElementsByClassName("nav__bar")
-const article= document.getElementsByClassName("middle-article")
+const article= document.getElementsByClassName("main__article")
 const collapse= document.getElementById("collapse");
 const setting= document.getElementsByClassName("wrap__setting");
 
