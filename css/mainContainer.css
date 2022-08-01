@@ -24,15 +24,27 @@ ul li {
 
 .middle-article {
   color: rgb(31, 30, 30);
-  right: -22rem;
+  position: relative;
+  z-index: -1;
+}
+body nav {
+  display: flex;
+}
+body nav span {
+  padding: 5px;
+}
+body nav .unresolved-nav {
+  border-bottom: 5px solid purple;
+}
+
+.nine {
+  background-color: rgb(249, 234, 239);
+  border-radius: 50%;
+  padding: 6px 10px 6px 10px;
 }
 
 .javascript-text {
   display: flex;
-}
-
-.time-div {
-  text-decoration: dotted;
 }
 
 i {
@@ -48,9 +60,6 @@ table .error_div p {
 }
 table h4 {
   color: royalblue;
-}
-table .dotted_line {
-  text-decoration: underline;
 }
 table #check1 {
   margin: -13px;
