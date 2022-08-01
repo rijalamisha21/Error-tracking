@@ -1,8 +1,7 @@
 @import "./global.scss";
 
-.middle-article{
-    color: $middle-black;
-    position: relative;
+.main__article{
+    color: $text-color;
     z-index: -1;
 }
 
