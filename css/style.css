@@ -188,17 +188,29 @@ ul li {
   list-style-type: none;
 }
 
+nav {
+  display: flex;
+}
+nav span {
+  padding: 5px;
+}
+nav .unresolved-nav {
+  border-bottom: 5px solid purple;
+}
+
 .main__article {
   color: rgb(31, 30, 30);
   z-index: -1;
 }
 
-.javascript-text {
-  display: flex;
+.nine {
+  background-color: rgb(249, 234, 239);
+  border-radius: 50%;
+  padding: 6px 10px 6px 10px;
 }
 
-.time-div {
-  text-decoration: dotted;
+.javascript-text {
+  display: flex;
 }
 
 i {
@@ -214,9 +226,6 @@ table .error_div p {
 }
 table h4 {
   color: royalblue;
-}
-table .dotted_line {
-  text-decoration: underline;
 }
 table #check1 {
   margin: -13px;
