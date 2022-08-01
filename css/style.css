@@ -187,6 +187,8 @@ ul li {
 
 .middle-article {
   color: rgb(31, 30, 30);
+  position: relative;
+  z-index: -1;
 }
 
 .javascript-text {
